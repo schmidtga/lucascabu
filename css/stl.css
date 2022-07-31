@@ -1,0 +1,586 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    background: #fff;
+    overflow-x: hidden;
+}
+.dashed-line {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  margin: 20px 0 30px 0;
+  display: block;
+  float:  left;
+  clear: both;
+  border-bottom: 1px dashed #666; 
+}
+
+/* Toggle Styles */
+
+#wrapper {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#sidebar-wrapper {
+  position: fixed;
+  left: 0;
+  width: 360px;
+  min-width: 320px;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  z-index: 1000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* Sidebar Styles */
+#menu-toggle {
+  width: 60px;
+  margin: 21px auto;
+  float: left;
+  display: none;
+}
+#sidebar-wrapper .carimbo-nav {
+  position: absolute;
+  left: 40px;
+  top: 60px;
+  max-width: 213px;
+}
+#sidebar-wrapper ul.sidebar-nav {
+  position: absolute;
+  top: 350px;
+  right: 0;
+  width: 270px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  list-style-position: inside;
+}
+.sidebar-subnav {
+  position: relative;
+  width: 110px;
+  margin: 0 0 0 10px;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+.sidebar-subnav.show {
+  display: block;
+}
+.sidebar-nav li {
+  text-indent: 0px;
+  line-height: 30px;
+  padding: 0 0 2px 0;
+  margin: 0;
+}
+.sidebar-nav li a {
+  position: relative;
+  text-decoration: none;
+}
+.sidebar-nav li a.nav-works span {
+  position: absolute;
+  bottom: -8px;
+  left: -3px;
+  width: 80px;
+  height: 7px;
+  background: url(../img/menu/principal/menu-works-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li a.nav-works.ativo > span, .sidebar-nav li a.nav-works.hover > span {
+  display: block;
+}
+
+.sidebar-nav li a.nav-design span {
+  position: absolute;
+  bottom: -8px;
+  left: -2px;
+  width: 78px;
+  height: 4px;
+  background: url(../img/menu/principal/menu-design-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li a.nav-design.ativo > span, .sidebar-nav li a.nav-design.hover > span {
+  display: block;
+}
+
+.sidebar-nav li a.nav-videos span {
+  position: absolute;
+  bottom: -6px;
+  left: 1px;
+  width: 73px;
+  height: 4px;
+  background: url(../img/menu/principal/menu-videos-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li a.nav-videos.ativo > span, .sidebar-nav li a.nav-videos.hover > span {
+  display: block;
+}
+
+.sidebar-nav li a.nav-duplo span {
+  position: absolute;
+  bottom: -12px;
+  left: 6px;
+  width: 81px;
+  height: 7px;
+  background: url(../img/menu/principal/menu-duplo-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li a.nav-duplo.ativo > span, .sidebar-nav li a.nav-duplo.hover > span {
+    display: block;
+}
+
+
+.sidebar-nav li a.nav-roloseco span {
+  position: absolute;
+  bottom: -14px;
+  left: 6px;
+  width: 116px;
+  height: 9px;
+  background: url(../img/menu/principal/menu-roloseco-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li a.nav-roloseco.ativo > span, .sidebar-nav li a.nav-roloseco.hover > span {
+  display: block;
+}
+
+.sidebar-nav li .sidebar-subnav li a.subnav-works-diplopia span {
+  position: absolute;
+  bottom: -7px;
+  left: -1px;
+  width: 89px;
+  height: 5px;
+  background: url(../img/menu/works/menu-works-diplopia-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li .sidebar-subnav li a.subnav-works-diplopia.ativo span, .sidebar-nav li .sidebar-subnav li a.subnav-works-diplopia.hover span {
+  display: block;
+}
+
+.sidebar-nav li .sidebar-subnav li a.subnav-works-paraiso span {
+  position: absolute;
+  bottom: -14px;
+  left: 9px;
+  width: 201px;
+  height: 8px;
+  background: url(../img/menu/works/menu-works-paraiso-recuperado-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li .sidebar-subnav li a.subnav-works-paraiso.ativo span, .sidebar-nav li .sidebar-subnav li a.subnav-works-paraiso.hover span {
+  display: block;
+}
+
+.sidebar-nav li .sidebar-subnav li a.subnav-works-anarquismo span {
+  position: absolute;
+  bottom: -9px;
+  left: 3px;
+  width: 229px;
+  height: 5px;
+  background: url(../img/menu/works/menu-works-anarquismo-espiritual-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li .sidebar-subnav li a.subnav-works-anarquismo.ativo span, .sidebar-nav li .sidebar-subnav li a.subnav-works-anarquismo.hover span {
+  display: block;
+}
+
+.sidebar-nav li .sidebar-subnav li a.subnav-works-ciencia span {
+  position: absolute;
+  bottom: -9px;
+  left: -3px;
+  width: 148px;
+  height: 4px;
+  background: url(../img/menu/works/menu-works-ciencia-popular-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li .sidebar-subnav li a.subnav-works-ciencia.ativo span, .sidebar-nav li .sidebar-subnav li a.subnav-works-ciencia.hover span {
+  display: block;
+}
+
+.sidebar-nav li .sidebar-subnav li a.subnav-works-letraset2 span {
+  position: absolute;
+  bottom: -16px;
+  left: -3px;
+  width: 150px;
+  height: 14px;
+  background: url(../img/menu/works/menu-works-letraset2-under.png) center center no-repeat;
+  display: none;
+}
+.sidebar-nav li .sidebar-subnav li a.subnav-works-letraset2.ativo span, .sidebar-nav li .sidebar-subnav li a.subnav-works-letraset2.hover span {
+  display: block;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+
+/* INTRO */
+
+.frame {
+  height: 100vh;
+  width: 100vw;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.frame-2 {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  white-space: nowrap;
+  text-align: center;
+  margin: auto;
+}
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.frame img {
+  vertical-align: middle;
+  max-height: 100%;
+}
+.frame-2 img {
+  vertical-align: middle;
+  max-width: 80%;
+}
+.frame .intro-carimbo {
+  position: absolute;
+  bottom: 10vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 166px;
+  height: 163px;
+}
+
+.spaceTop {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  clear: both;
+}
+.spaceBetween80 {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  clear: both;
+}
+.spaceBetween20 {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  clear: both;
+}
+.spaceBottom {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  clear: both;
+}
+
+
+/* INFO */
+.frame-2 .info img {
+  max-width: 100%;
+}
+.info {
+  position: relative;
+  width: 100%;
+}
+.info .img-box {
+  position: relative;
+  margin: 80px auto 20px auto;
+}
+.info .img-box .img-holder {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+.info .img-box .img-holder .video {
+  position: absolute;
+  bottom: 66px;
+  right: -150px;
+}
+.info .info-txt {
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+  white-space: initial;
+}
+.info .info-txt p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.info .info-txt .info-carimbos {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+  display: block;
+  overflow: hidden;
+}
+.info .info-txt .info-carimbos .carimbo {
+  width: 50%;
+  float: left;
+  display: block;
+}
+.info .info-txt .info-carimbos .carimbo img {
+  max-width: 163px;
+}
+.info .info-txt .info-mais {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px 0 20px 0;
+  display: block;
+  overflow: hidden;
+}
+.info .info-txt .info-mais .mais {
+  width: 33%;
+  float: left;
+  display: block;
+}
+.info .links-info {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+}
+.info .links-info .portifolio {
+  position: relative;
+  width: 50%;
+  height: 50px;
+  margin: 20px 0;
+  float: left;
+  display: block;
+}
+.info .links-info .portifolio a {
+  margin: 5px 0;
+  float: left;
+  display: block;
+  clear: both;
+}
+.info .links-info .email {
+  position: relative;
+  max-width: 240px;
+  height: auto;
+  margin: 10px auto;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+
+/* VIDEOS */
+
+.card {
+  float: left;
+  width: 48%;
+  margin: 0 2% 2rem 0;
+  border: 0;
+}
+.card p.card-text {
+  width: 100%;
+  height: 50px;
+  margin: .45rem .75rem;
+  font-size: .9rem;
+  line-height: 1rem;
+  font-weight: 100;
+  color: #666;
+  text-transform: capitalize;
+  white-space: normal;
+  text-align: left;
+}
+
+@media(max-width: 1024px) {
+
+  .info .info-txt {
+    width: 65%;
+  }
+  .info .img-box .img-holder .video {
+    right: -100px;
+  }
+
+  .card {
+    float: left;
+    width: 100%;
+    margin: 0 0  2rem 0;
+    border: 0;
+  }
+
+}
+
+@media(max-width: 768px) {
+
+  #wrapper .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    z-index: 8;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  #wrapper.menuOpen .overlay {
+    opacity: 1;
+    width: 100vw;
+  }
+  #menu-toggle {
+    display: block;
+  }
+  #sidebar-wrapper {
+    left: 300px;
+    width: 300px;
+    margin-left: -300px;
+  }
+  #sidebar-wrapper.closed {
+    left: -20px;
+  }
+  .frame-2 img {
+    max-width: 100%;
+  }
+  .info .img-box .img-holder .video {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    right: initial;
+    bottom: initial;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    float: left;
+  }
+  .info .img-box .img-holder .video iframe {
+    width: 90%;
+  }
+  .info .info-txt {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    top: initial;
+    padding: auto;
+    display: block;
+    float: left;
+    overflow: hidden;
+  }
+
+  .info .links-info .email {
+    position: relative;
+    width: 50%;
+    margin: 10px auto;
+    display: inline-block;
+    text-align: center;
+  }
+
+}
+
+
+@media(max-width: 420px) {
+
+  .container-fluid {
+    padding: 0;
+  }
+  .container-fluid>.navbar-header {
+    margin: 0;
+  }
+  #sidebar-wrapper .carimbo-nav {
+    max-width: 140px; 
+    left: 30px;
+  }
+  #sidebar-wrapper ul.sidebar-nav {
+    top: 220px;
+    width: 260px;
+  }
+  a.navbar-brand {
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+  a.navbar-brand span.por {
+    font-size: .8rem;
+    display: block;
+  }
+
+  .frame .intro-carimbo {
+    bottom: 8vh;
+    max-width: 130px;
+    height: auto;
+  }
+
+  .info .links-info .portifolio {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 10px 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+  }
+  .info .links-info .email {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+    display: inline-block;
+  }
+  .info .links-info .email a {
+    right: initial;
+    left: 0;
+    width: 100%;
+  }
+  .info .info-txt .info-carimbos .carimbo {
+    width: 96%;
+    padding: 0 2%;
+  }
+  .info .info-txt .info-carimbos .carimbo.azul {
+    display: none;
+  }
+  .info .info-txt .info-mais {
+    padding: 0 0 60px 0;
+  }
+  .info .info-txt .info-mais .mais {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  .card p.card-text {
+    width: 80%;
+    margin: .75rem 10%;
+  }
+  .card iframe {
+    width: auto;
+  }
+
+}

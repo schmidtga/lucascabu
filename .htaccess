@@ -1,0 +1,26 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://lucascabu.com/$1 [R,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+ErrorDocument 404 /404.html
+
+RewriteRule ^adm?$ adm/views/index.php [NC,L]
+
+RewriteRule ^home?$ views/home/index.php [NC,L]
+
+RewriteRule ^intro?$ views/intro/index.php [NC,L]
+
+RewriteRule ^info?$ views/info/index.php [NC,L]
+
+RewriteRule ^work/([a-z0-9-]+)?$ views/works/index.php?work=$1 [NC,L]
+
+RewriteRule ^design?$ views/design/index.php [NC,L]
+
+RewriteRule ^duplo?$ views/duplo/index.php [NC,L]
+
+RewriteRule ^video?$ views/videos/index.php [NC,L]
