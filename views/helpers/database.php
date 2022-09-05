@@ -10,7 +10,7 @@
             ),
             'info' => array(
                 'id' => 2,
-                'img'=> 'img/carimbos/carimbos_total_transparentes.gif',
+                'img'=> 'img/carimbos/info_carimbo.gif',
                 'label' => 'Home - Info',
             ),
             'work-diplopia' => array(
@@ -54,38 +54,76 @@
                 'label' => 'Duplo',
             ),
 
-          ];
+        ];
 
     $works = [
 
             'diplopia' => array(
                 'id' => 1,
                 'img'=> array(
-                    '1' => 'img/works/diplopia/1.gif',
-                    '2' => 'img/works/diplopia/2.gif',
-                    '3' => 'img/works/diplopia/3.gif',
-                    '4' => 'img/works/diplopia/4.gif',
-                    '5' => 'img/works/diplopia/5.gif',
+                    '1' => 'img/works/diplopia/1a.jpg',
+                    '2' => 'img/works/diplopia/1b.jpg',
+                    '3' => 'img/works/diplopia/2a.jpg',
+                    '4' => 'img/works/diplopia/2b.jpg',
+                    '5' => 'img/works/diplopia/3a.jpg',
+                    '6' => 'img/works/diplopia/3b.jpg',
+                    '7' => 'img/works/diplopia/4a.jpg',
+                    '8' => 'img/works/diplopia/4b.jpg',
+                    '9' => 'img/works/diplopia/clearball.gif',
                 ),
+                'legenda' => [
+                    '2' => '<p><br></p>
+                    <p>
+                    <b>Electroluminescent Red</b><br>
+                    Size (HxWxD): 15’’ x 11’’ x 4.5’’ (38 x 28 x 11,5 cm)
+                    </p>',
+                    '4' => '<p><br></p>
+                    <p>
+                    <b>Led white</b><br>
+                    size (HxWxD): 16.5 x 11 x 4 .5’’ (42 x 28 x 11,5 cm)
+                    </p>',
+                    '6' => '<p><br></p>
+                    <p>
+                    <b>Led Red</b><br>
+                    size (HxWxD): 16.5 x 11 x 4 .5’’  (42 x 28 x 11,5 cm)
+                    </p>',
+                    '8' => '<p><br></p>
+                    <p>
+                    <b>Electroluminescent S</b><br>
+                    Size (HxWxD): 15x 11 x 4.5’’ (38 x 28 x 11,5 cm)
+                    </p>',
+                    '9' => '<p><br></p>
+                    <p>
+                    <b>Clear ball</b><br>
+                    Size (HxWxD): 18 x 15.5 x 4.5’’ (46 x 40 x 11,5 cm)
+                    </p>',
+                ],
                 'label' => '',
                 'link' => 'works/diplopia',
                 'name' => 'Diplopia',
+                'bottom' => '<p>“Diplopia” is an optical-art light-sculpture made of plexiglass, light panels and an optical filter (found in LED televisions) that duplicates the images presented behind it. The duplicated image oscillates and changes as the viewer moves in front of it.</p>
+                <p>In a polarized world, these mysterious, sensual, sci-fi inspired objects stand for empathy by enlightening and presenting different points of views in one single object.</p>
+                <p><br></p>
+                <h4>Edition:</h4>
+                <p> 7 original designs with editions of 7 units each in a total of 49 pieces.</p>
+                '
             ),
 
             'anarquismo-espiritual' => array(
                 'id' => 2,
                 'img'=> array(
-                    '1' => 'img/works/anarquismoespiritual/works-anarquismo-espiritual.gif',
-                    '2' => 'img/works/anarquismoespiritual/ae-flag.jpg',
-                    '3' => 'img/works/anarquismoespiritual/1.jpg',
+                    // '1' => 'img/works/anarquismoespiritual/ae_new.jpg',
+                    '2' => 'img/works/anarquismoespiritual/works-anarquismo-espiritual.gif',
+                    '3' => 'img/works/anarquismoespiritual/ae-flag.jpg',
+                    '4' => 'img/works/anarquismoespiritual/1.jpg',
                     '4' => 'img/works/anarquismoespiritual/2.jpg',
-                    '5' => array('video' =>
+                    '6' => array('video' =>
                             array(
                                     'tipo' => 'youtube',
                                     'embed' => 'jXUhrOQe1lo'
                                 )
                         ),
-                    '6' => 'img/works/anarquismoespiritual/3.gif',
+                    '7' => 'img/works/anarquismoespiritual/3.gif',
 
                 ),
                 'label' => '',
@@ -155,7 +193,7 @@
             //     'name' => 'Ao Paraiso Recuperado',
             // ),
 
-          ];
+        ];
 
     $designs = [
         'design' => array(
@@ -167,32 +205,30 @@
                 '2' => 'img/design/3 - capa_DUPLO_2.jpg',
                 '3' => 'img/design/4 - capa_DUPLO_3.jpg',
                 '4' => 'img/design/5 - capa_DUPLO_4.jpg',
-                // '5' => 'img/design/6 - capa_DUPLO_5.jpg',
-                '6' => 'img/design/7 - capa_DUPLO_6.jpg',
-                '7' => 'img/design/8.gif',
-                '8' => 'img/design/9.jpg',
-                // '9' => 'img/design/10.jpg',
-                '10' => 'img/design/11.jpg',
-                '11' => 'img/design/12.gif',
-                '12' => 'img/design/13.gif',
-                // '13' => 'img/design/14.jpg',
-                '14' => 'img/design/15.jpg',
-                '15' => 'img/design/17 Camis_completers2.jpg',
-                '16' => 'img/design/18 cankro1.jpg',
-                '17' => 'img/design/19 DIG_4_Mandibula.gif',
-                '18' => 'img/design/20 duplo_hezergovina.jpg',
-                '19' => 'img/design/21 duplo_lancamento_ep.jpg',
-                // '20' => 'img/design/22 fatamorgana_uk.jpg',
-                '21' => 'img/design/23 k7_crise.jpg',
-                '22' => 'img/design/24 Logo_DAMA.jpg',
-                '23' => 'img/design/25 Logo_Duplo1.jpg',
-                '24' => 'img/design/26 Logo_duplo3_rosa.jpg',
-                '25' => 'img/design/27 Logo_Gattopardo.jpg',
-                // '26' => 'img/design/28 Logo_marcela1.jpg',
+                '5' => 'img/design/7 - capa_DUPLO_6.jpg',
+                '6' => 'img/design/8.gif',
+                '7' => 'img/design/9.jpg',
+                '8' => 'img/design/11.jpg',
+                '9' => 'img/design/12.gif',
+                '10' => 'img/design/01.png',
+                '12' => 'img/design/a1.gif',
+                '13' => 'img/design/b1.gif',
+                '14' => 'img/design/AFC_website_3.png',
+                '15' => 'img/design/13.gif',
+                '16' => 'img/design/15.jpg',
+                '17' => 'img/design/17 Camis_completers2.jpg',
+                '18' => 'img/design/18 cankro1.jpg',
+                '19' => 'img/design/19 DIG_4_Mandibula.gif',
+                '20' => 'img/design/20 duplo_hezergovina.jpg',
+                '21' => 'img/design/21 duplo_lancamento_ep.jpg',
+                '22' => 'img/design/23 k7_crise.jpg',
+                '23' => 'img/design/24 Logo_DAMA.jpg',
+                '24' => 'img/design/25 Logo_Duplo1.jpg',
+                '25' => 'img/design/26 Logo_duplo3_rosa.jpg',
+                '26' => 'img/design/27 Logo_Gattopardo.jpg',
                 '27' => 'img/design/logo_marcela3.gif',
                 '28' => 'img/design/30.jpg',
                 '29' => 'img/design/31Logo_Mentira2.jpg',
-                // '30' => 'img/design/32 Logo_Mentira4.jpg',
                 '31' => 'img/design/33 RAKTA_1.gif',
                 '32' => 'img/design/34 RAKTA_13.jpg',
                 '33' => 'img/design/35 RAKTA_15.jpg',

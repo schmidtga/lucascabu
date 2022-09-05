@@ -6,13 +6,16 @@
 
 body {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1em;
-    background: #fff;
+    background: url(../img/dirty_bg.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+    background-size: contain;
     overflow-x: hidden;
 }
 .dashed-line {
@@ -413,6 +416,55 @@ body {
   text-align: left;
 }
 
+.resume {
+  width: 45%;
+  text-align: left;
+  margin: 0 auto;
+  white-space: initial;
+  padding: 0 0 100px 0;
+}
+.resume h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin: 1rem .75rem;
+  color: black;
+}
+.resume h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-style: italic;
+  margin: 1rem .75rem;
+  color: black;
+}
+.resume p {
+  margin: 1rem .75rem;
+  font-size: 1rem;
+  line-height: 1.250rem;
+  font-weight: 100;
+  color: #666;
+  white-space: normal;
+  text-align: left;
+}
+.resume ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style: none;
+}
+.resume ul li {
+  margin: 1rem .75rem;
+  font-size: 1rem;
+  line-height: 1.250rem;
+  font-weight: 100;
+  color: #666;
+  white-space: normal;
+  text-align: left;
+}
+.resume ul li span {
+  font-weight: bold;
+  color: black;
+}
+
 @media(max-width: 1024px) {
 
   .info .info-txt {
@@ -497,6 +549,10 @@ body {
     margin: 10px auto;
     display: inline-block;
     text-align: center;
+  }
+
+  .resume {
+    width: 94%;
   }
 
 }
