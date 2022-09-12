@@ -61,55 +61,43 @@
             'diplopia' => array(
                 'id' => 1,
                 'img'=> array(
-                    '1' => 'img/works/diplopia/1a.jpg',
-                    '2' => 'img/works/diplopia/1b.jpg',
-                    '3' => 'img/works/diplopia/1c.gif',
-                    '4' => 'img/works/diplopia/2a.jpg',
-                    '5' => 'img/works/diplopia/2b.jpg',
-                    '6' => 'img/works/diplopia/2c.gif',
-                    '7' => 'img/works/diplopia/3a.jpg',
-                    '8' => 'img/works/diplopia/3b.jpg',
-                    '9' => 'img/works/diplopia/3c.gif',
-                    '10' => 'img/works/diplopia/4a.jpg',
-                    '11' => 'img/works/diplopia/4b.jpg',
-                    '12' => 'img/works/diplopia/4c.gif',
+                    '1' => 'img/works/diplopia/1c.gif',
+                    '2' => 'img/works/diplopia/1a.jpg',
+                    '3' => 'img/works/diplopia/1b.jpg',
+                    '4' => 'img/works/diplopia/2c.gif',
+                    '5' => 'img/works/diplopia/2a.jpg',
+                    '6' => 'img/works/diplopia/2b.jpg',
+                    '7' => 'img/works/diplopia/3c.gif',
+                    '8' => 'img/works/diplopia/3a.jpg',
+                    '9' => 'img/works/diplopia/3b.jpg',
+                    '10' => 'img/works/diplopia/4c.gif',
+                    '11' => 'img/works/diplopia/4a.jpg',
+                    '12' => 'img/works/diplopia/4b.jpg',
                     '13' => 'img/works/diplopia/clearball.jpg',
                 ),
                 'legenda' => [
-                    '3' => '<p><br></p>
-                    <p>
-                    <b>Electroluminescent Red</b><br>
-                    Size (HxWxD): 15’’ x 11’’ x 4.5’’ (38 x 28 x 11,5 cm)
-                    </p>',
-                    '6' => '<p><br></p>
-                    <p>
-                    <b>Led white</b><br>
-                    size (HxWxD): 16.5 x 11 x 4 .5’’ (42 x 28 x 11,5 cm)
-                    </p>',
-                    '9' => '<p><br></p>
-                    <p>
+                    '3' => '<b>Electroluminescent Red</b><br>
+                    Size (HxWxD): 15’’ x 11’’ x 4.5’’ (38 x 28 x 11,5 cm)',
+                    '6' => '<b>Led white</b><br>
+                    size (HxWxD): 16.5 x 11 x 4 .5’’ (42 x 28 x 11,5 cm)',
+                    '9' => '
                     <b>Led Red</b><br>
-                    size (HxWxD): 16.5 x 11 x 4 .5’’  (42 x 28 x 11,5 cm)
-                    </p>',
-                    '12' => '<p><br></p>
-                    <p>
-                    <b>Electroluminescent S</b><br>
-                    Size (HxWxD): 15x 11 x 4.5’’ (38 x 28 x 11,5 cm)
-                    </p>',
-                    '13' => '<p><br></p>
-                    <p>
-                    <b>Clear ball</b><br>
-                    Size (HxWxD): 18 x 15.5 x 4.5’’ (46 x 40 x 11,5 cm)
-                    </p>',
+                    size (HxWxD): 16.5 x 11 x 4 .5’’  (42 x 28 x 11,5 cm)',
+                    '12' => '<b>Electroluminescent S</b><br>
+                    Size (HxWxD): 15x 11 x 4.5’’ (38 x 28 x 11,5 cm)',
+                    '13' => '<b>Clear ball</b><br>
+                    Size (HxWxD): 18 x 15.5 x 4.5’’ (46 x 40 x 11,5 cm)',
                 ],
                 'label' => '',
                 'link' => 'works/diplopia',
                 'name' => 'Diplopia',
-                'bottom' => '<p>“Diplopia” is an optical-art light-sculpture made of plexiglass, light panels and an optical filter (found in LED televisions) that duplicates the images presented behind it. The duplicated image oscillates and changes as the viewer moves in front of it.</p>
-                <p>In a polarized world, these mysterious, sensual, sci-fi inspired objects stand for empathy by enlightening and presenting different points of views in one single object.</p>
-                <p><br></p>
-                <h4>Edition:</h4>
-                <p> 7 original designs with editions of 7 units each in a total of 49 pieces.</p>
+                'bottom' => '“Diplopia” is an optical-art light-sculpture made of plexiglass, light panels and an optical filter (found in LED televisions) that duplicates the images presented behind it. The duplicated image oscillates and changes as the viewer moves in front of it.
+                <br><br>
+                In a polarized world, these mysterious, sensual, sci-fi inspired objects stand for empathy by enlightening and presenting different points of views in one single object.
+                <br><br>
+                <b>Edition:</b>
+                <br><br>
+                7 original designs with editions of 7 units each in a total of 49 pieces.
                 '
             ),
 

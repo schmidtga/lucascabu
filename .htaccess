@@ -16,6 +16,7 @@ RewriteRule ^home?$ views/home/index.php [NC,L]
 RewriteRule ^intro?$ views/intro/index.php [NC,L]
 
 RewriteRule ^info?$ views/info/index.php [NC,L]
+RewriteRule ^work/diplopia?$ views/works/diplopia.php [NC,L]
 
 RewriteRule ^work/([a-z0-9-]+)?$ views/works/index.php?work=$1 [NC,L]
 

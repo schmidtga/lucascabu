@@ -27,12 +27,14 @@
                         <?php } ?>
                     <?php } else { ?>
                         <img class="img-fluid mx-auto d-block lazyload" data-src="<?php echo BASE . $value?>" alt="Work - <?php echo $works [$work]['name']?>">
+                        <p class="caption">
                         <?php if(is_array($works[$work])) {
                             if($works[$work]['legenda'][$key]) {
                                 echo $works[$work]['legenda'][$key];
                             }
                         }
                         ?>
+                        </p>
                     <?php } ?>
                     <div class="spaceBetween80"></div>
                 <?php } ?>

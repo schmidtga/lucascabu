@@ -394,6 +394,15 @@ body {
   text-align: center;
 }
 
+.info.diplopia img {
+  max-width: 480px;
+  height: auto;
+  margin: 0 auto;
+}
+.info.diplopia .caption {
+  max-width: 480px;
+  margin: 20px auto;
+}
 
 /* VIDEOS */
 
@@ -416,32 +425,34 @@ body {
   text-align: left;
 }
 
-.info-bottom {
-  width: 100%;
-  margin: 0 auto;
-  white-space: initial;
-}
-.info-bottom h2 {
-  font-size: 1.125rem;
-  font-weight: bold;
-  margin: 1rem .75rem;
-  color: black;
-}
-.info-bottom h3 {
-  font-size: 1.125rem;
-  font-weight: bold;
-  font-style: italic;
-  margin: 1rem .75rem;
-  color: black;
-}
-.info-bottom p {
+.caption {
   margin: 1rem .75rem;
   font-size: 1rem;
   line-height: 1.250rem;
   font-weight: 100;
-  color: #666;
+  color: black;
+  white-space: normal;
+  text-align: left;
+}
+.caption b {
+  font-weight: bold;
+}
+
+.info-bottom {
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.250rem;
+  font-weight: 100;
+  color: black;
   white-space: normal;
   text-align: center;
+}
+.info-bottom p {
+  max-width: 480px;
+  margin: auto;
+}
+.info-bottom b {
+  font-weight: bold;
 }
 
 .resume {
@@ -581,6 +592,12 @@ body {
 
   .resume {
     width: 94%;
+  }
+
+  .info-bottom {
+    width: 100vw;
+    margin: 0 auto 0 20px;
+    vertical-align: center;
   }
 
 }
