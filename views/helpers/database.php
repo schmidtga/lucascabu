@@ -63,36 +63,40 @@
                 'img'=> array(
                     '1' => 'img/works/diplopia/1a.jpg',
                     '2' => 'img/works/diplopia/1b.jpg',
-                    '3' => 'img/works/diplopia/2a.jpg',
-                    '4' => 'img/works/diplopia/2b.jpg',
-                    '5' => 'img/works/diplopia/3a.jpg',
-                    '6' => 'img/works/diplopia/3b.jpg',
-                    '7' => 'img/works/diplopia/4a.jpg',
-                    '8' => 'img/works/diplopia/4b.jpg',
-                    '9' => 'img/works/diplopia/clearball.gif',
+                    '3' => 'img/works/diplopia/1c.gif',
+                    '4' => 'img/works/diplopia/2a.jpg',
+                    '5' => 'img/works/diplopia/2b.jpg',
+                    '6' => 'img/works/diplopia/2c.gif',
+                    '7' => 'img/works/diplopia/3a.jpg',
+                    '8' => 'img/works/diplopia/3b.jpg',
+                    '9' => 'img/works/diplopia/3c.gif',
+                    '10' => 'img/works/diplopia/4a.jpg',
+                    '11' => 'img/works/diplopia/4b.jpg',
+                    '12' => 'img/works/diplopia/4c.gif',
+                    '13' => 'img/works/diplopia/clearball.jpg',
                 ),
                 'legenda' => [
-                    '2' => '<p><br></p>
+                    '3' => '<p><br></p>
                     <p>
                     <b>Electroluminescent Red</b><br>
                     Size (HxWxD): 15’’ x 11’’ x 4.5’’ (38 x 28 x 11,5 cm)
                     </p>',
-                    '4' => '<p><br></p>
+                    '6' => '<p><br></p>
                     <p>
                     <b>Led white</b><br>
                     size (HxWxD): 16.5 x 11 x 4 .5’’ (42 x 28 x 11,5 cm)
                     </p>',
-                    '6' => '<p><br></p>
+                    '9' => '<p><br></p>
                     <p>
                     <b>Led Red</b><br>
                     size (HxWxD): 16.5 x 11 x 4 .5’’  (42 x 28 x 11,5 cm)
                     </p>',
-                    '8' => '<p><br></p>
+                    '12' => '<p><br></p>
                     <p>
                     <b>Electroluminescent S</b><br>
                     Size (HxWxD): 15x 11 x 4.5’’ (38 x 28 x 11,5 cm)
                     </p>',
-                    '9' => '<p><br></p>
+                    '13' => '<p><br></p>
                     <p>
                     <b>Clear ball</b><br>
                     Size (HxWxD): 18 x 15.5 x 4.5’’ (46 x 40 x 11,5 cm)
@@ -112,18 +116,17 @@
             'anarquismo-espiritual' => array(
                 'id' => 2,
                 'img'=> array(
-                    // '1' => 'img/works/anarquismoespiritual/ae_new.jpg',
-                    '2' => 'img/works/anarquismoespiritual/works-anarquismo-espiritual.gif',
-                    '3' => 'img/works/anarquismoespiritual/ae-flag.jpg',
-                    '4' => 'img/works/anarquismoespiritual/1.jpg',
+                    '1' => 'img/works/anarquismoespiritual/works-anarquismo-espiritual.gif',
+                    '2' => 'img/works/anarquismoespiritual/ae-flag.jpg',
+                    '3' => 'img/works/anarquismoespiritual/1.jpg',
                     '4' => 'img/works/anarquismoespiritual/2.jpg',
-                    '6' => array('video' =>
+                    '5' => array('video' =>
                             array(
                                     'tipo' => 'youtube',
                                     'embed' => 'jXUhrOQe1lo'
                                 )
                         ),
-                    '7' => 'img/works/anarquismoespiritual/3.gif',
+                    '6' => 'img/works/anarquismoespiritual/3.gif',
 
                 ),
                 'label' => '',

@@ -416,6 +416,34 @@ body {
   text-align: left;
 }
 
+.info-bottom {
+  width: 100%;
+  margin: 0 auto;
+  white-space: initial;
+}
+.info-bottom h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin: 1rem .75rem;
+  color: black;
+}
+.info-bottom h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-style: italic;
+  margin: 1rem .75rem;
+  color: black;
+}
+.info-bottom p {
+  margin: 1rem .75rem;
+  font-size: 1rem;
+  line-height: 1.250rem;
+  font-weight: 100;
+  color: #666;
+  white-space: normal;
+  text-align: center;
+}
+
 .resume {
   width: 45%;
   text-align: left;

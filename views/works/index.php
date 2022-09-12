@@ -40,7 +40,7 @@
                 <img class="img-fluid mx-auto d-block lazyload" data-src="<?php echo BASE . $works[$work]['img']?>" alt="Work - <?php echo $works [$work]['name']?>">
             <?php } ?>
             <div class="spaceBottom"></div>
-            <div class="container info-txt">
+            <div class="info-bottom">
             <?php if (is_array($works[$work])) {
                 echo  $works[$work]['bottom'];
             } ?>

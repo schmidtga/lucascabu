@@ -81,7 +81,7 @@
                 </a>
             </li>
             <li>
-                <a class="nav-roloseco" href="https://roloseco.tumblr.com/" target="_blank">
+                <a class="nav-roloseco" href="https://www.instagram.com/roloseco/" target="_blank">
                     <img src="<?php echo BASE?>img/menu/principal/menu-roloseco.png" alt="menu rolo seco">
                     <span></span>
                 </a>
